@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">  <!-- ngôn ngữ -->
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 title="hearder">La Thị Hoài Hoa</h1>
+    <p title="chú thích" style="color: blue;">Tôi là cô gái dễ thương, tôi có ước mơ trở thành bà chủ shop thời trang nổi tiếng</p>
+    <img src="D:\Thuc_tap\Hoaihoa\van_dung\images\anh.jpg" alt="anh hoa" width="200" height="300">
+    <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+    
+    <p style="font-size: 50px; color: brown;" >The pre tag preserves both spaces and line breaks:</p>
+    
+    <pre>  <!--tự động xuống dòng -->
+        My Bonnie lies over the ocean.
+        My Bonnie lies over the sea.
+        My Bonnie lies over the ocean.
+        Oh, bring back my Bonnie to me.
+    </pre>
+    <hr> <!--cắt ngang-->
+    <h1 style="font-family:verdana;">phong chữ tiêu đề</h1>  
+    <p style="font-family:courier;">phong chữ văn bản</p>
+
+    <h1 style="font-size:300%;">cỡ chữ tiêu đề</h1>  
+    <p style="font-size:160%;">cỡ chữ văn bản</p>
+
+    <h1 style="text-align:center;">căn chỉnh văn bản ở giữa</h1> 
+    <p style="text-align:center;">Centered paragraph.</p>
+
+    <p><b>Chữ in đậm</b></p>
+    <p><i>Chữ in nghiêng</i></p>
+    <p><strong>Văn bản quan trọng</strong></p>
+    <p><em>Văn bản được nhấn mạnh</em></p>
+    <p><mark>Văn bản nhỏ hơn</mark></p>
+    <p><del>Văn bản đã xóa</del></p>
+    <p><ins>Đã chèn văn bản</ins></p>
+    <p>Đây là <sub> chỉ só dưới(subscript)</sub> và <sup>chỉ số trên(superscript)</sup></p>
+    <hr>
+
+    <p>Đây là trích dẫn từ trang web:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html"> 
+    Phần tử HTML xác định một phần được trích dẫn từ một nguồn khác.
+    Trình duyệt thường thụt lề các phần tử.
+    </blockquote>
+    <hr>
+
+    <p>WWF's goal is to: <q>Thẻ HTML xác định một trích dẫn ngắn.
+        Các trình duyệt thường chèn dấu ngoặc kép xung quanh dấu ngoặc kép.</q>
+    </p>
+
+    <p>The <abbr title="World Health Organization">WHO</abbr> Thẻ HTML xác định chữ viết tắt hoặc từ viết tắt.</p>
+    <address>
+        Địa chỉ liên hệ của tôi.<br> 
+        Visit us at:<br>
+        lahoa.dep@gmail.com<br>
+        Ninh Hòa - Khánh Hòa<br>
+        Vietnam
+    </address>
+    <hr>
+
+    <img src="D:\Thuc_tap\Hoaihoa\van_dung\images\anhhoa.jpg" width="220" height="277" alt="Hoa xinh">
+    <p><cite>HOÀI HOA</cite> xác định tiêu đề tác phẩm, chữ in nghiêng</p>
+
+    <bdo dir="rtl">Thẻ bdo được sử dụng để ghi đè hướng văn bản hiện tại: và được viết từ phải sang trái</bdo>
+    <!-- Ẩn nội dung -->
+
+    <h1 style="border:2px solid Tomato;">Đường viền màu cà chua</h1>
+
+    <hr>
+    <a href="https://www.w3schools.com/">Liên kết đến trang Visit W3Schools.com!</a>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> <!--Sử dụng target = "_ blank" để mở tài liệu được liên kết trong tab hoặc cửa sổ trình duyệt mới-->
+    <hr>
+    <a href="https://www.w3schools.com/"><img src="images\anh.jpg" alt="HTML tutorial" style="float: left; width:50px;height:50px;"></a>
+    <p>Hình ảnh dưới dạng liên kết.Hãy nhấp vài nó</p>
+
+    <p><a href="mailto:lahoa.dep@gmail.com">Liên kết đến gmail</a></p> <!--sử dụng mailto -->
+    <button onclick="document.location='https://www.w3schools.com/'">Nút dưới dạnh liên kết</button>
+    <hr>
+    <b> La Thị Hoài Hoa</b> 
+
+    <p><a href="#C4">Chuyển đến 4</a></p>  <!--(href = "# value ") để liên kết với dấu trang-->
+    <h2 id="C4">Chương 4</h2>  <!--(id = " value ")xác định dấu trang trong một trang-->
+    <p>Đây là chương 4</p>
+    <hr>
+
+    <!--
+    rect - xác định một vùng hình chữ nhật
+    circle - xác định một vùng hình tròn
+    poly - xác định một vùng đa giác
+    default - xác định toàn bộ khu vực
+    -->
+    <img src="images\anh.jpg" alt="hoa" usemap="#hoa" width="400" height="379">
+
+    <map name="hoa">
+    <area shape="default" coords="34,44,270,350" alt="eye" href="eye.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+    <hr>
+    <div style="background-image: url('images\anh.jpg');">  <!--ảnh nền dưới chữ-->
+        You can specify background images<br>
+        for any visible HTML element.<br>
+        In this example, the background image<br>
+        is specified for a div element.<br>
+        background image behaves.
+    </div>
+
+    <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Monthly savings</caption>  <!--tên bảng-->
+        <colgroup>
+          <col span="2" style="background-color:red">  
+          <col style="background-color:yellow">
+        </colgroup>
+        <thead>   <!--in đậm-->
+            <tr>
+                <th>ISBN</th>
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        
+        <tr>
+          <td>3476896</td>
+          <td>My first HTML</td>
+          <td>$53</td>
+        </tr>
+        <tr>
+          <td>5869207</td>
+          <td>My first CSS</td>
+          <td>$49</td>
+        </tr>
+    </table>
+
+    <hr>
+    <ul>
+        <li>Hoa</li>
+    </ul>
+    <ol type="a">   <!--đầu dòng là chữ a-->
+        <li>Hoa</li>
+    </ol>
+    <dl>
+        <dt>Hoa</dt>
+        <dd>- Hoa</dd>
+    </dl>
+    <ol start="30"> 
+        <li>Bắt đầu bằng</li>
+    </ol>
+
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/python/">Python</a>
+    </nav>
+
+    <hr>
+    <p>Xin chào tôi là<span style="border: 1px solid black">Hoa xinh</span> đẹp nhất thế giới đây.</p>
+
+    <label for="w3review">Review of W3Schools:</label>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">
+    At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+    </textarea>
+
+    <h2 class="city main">London</h2>
+    <h2 class="city">Paris</h2>
+    <h2 class="city">Tokyo</h2>
+    <hr>
+
+    <p>NHấn vào nút để ẩn tên các thành phố</p>
+
+    <button onclick="myFunction()">Ẩn tên các thành phố</button>
+    <h3 class="ct">London</h3>
+    <p>London is the capital of England.</p>
+
+    <h3 class="ct">Paris</h3>
+    <p>Paris is the capital of France.</p>
+
+    <h3 class="ct">Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+
+    <script>
+    function myFunction() {
+    var x = document.getElementsByClassName("ct");
+    for (var i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    }
+    </script>
+
+    <h1 id="myHeader">My Header</h1>
+    <h1 id="Header">Hello World!</h1>
+    <button onclick="displayResult()">Change text</button>
+
+    <script>
+    function displayResult() {
+    document.getElementById("Header").innerHTML = "Have a nice day!";
+    }
+    </script>
+
+    <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+    <iframe src="iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+    <p><a href="https://www.w3schools.com/" target="iframe_a">W3Schools.com</a></p>
+    <p>Mở thuộc tính liên kết ở dưới trên khung iframe.</p>
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    <p id="demo"></p>
+
+    <hr>
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    <p id="thu">This is a demonstration.</p>
+    <script>
+    function myFunction() { 
+    document.getElementById("thu").innerHTML = "Hello JavaScript!";
+    document.getElementById("thu").style.fontSize = "25px"; 
+    document.getElementById("thu").style.color = "red";
+    document.getElementById("thu").style.backgroundColor = "yellow";  
+    }
+    </script>
+
+    <hr>
+    <script>
+        function light(sw) {
+          var pic;
+          if (sw == 0) {
+            pic = "images/pic_bulboff.gif"
+          } else {
+            pic = "images/pic_bulbon.gif"
+          }
+          document.getElementById('myImage').src = pic;
+        }
+        </script>
+        
+        <img id="myImage" src="images/pic_bulboff.gif" width="100" height="180">
+        
+        <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+        </p>
+
+        <hr>
+        
+</body>
+</html>
