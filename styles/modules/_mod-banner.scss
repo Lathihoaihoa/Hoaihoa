@@ -1,0 +1,26 @@
+.mod-banner{
+    .btn {
+        @apply px-37 py-8
+        2xl:pt-7 2xl:pb-9 2xl:pl-36 2xl:pr-38;
+      &:hover {
+        @apply bg-gray-100 text-red;
+      }
+    }
+
+    h1 {
+        @apply mb-6;
+        // Animation CSS3
+        animation: shine 2s forwards, flicker 3s infinite;
+    }
+    
+
+    p {
+        @apply text-h6 tracking-h6 mx-70 mb-17
+        xl:mx-0 xl:mb-16
+        2xl:mr-50 2xl:mb-17
+    }
+
+    a {
+        @apply xl:ml-1 2xl:ml-0
+    }
+}

@@ -1,0 +1,33 @@
+.mod-content-image {
+
+    h3 {
+        @apply mb-9 xl:w-410
+        xl:mb-28
+        2xl:w-265 2xl:mb-9
+    }
+
+    p {
+        @apply mb-20 xl:w-172
+        2xl:w-257
+    }
+    
+    
+
+}
+.arrow-append1 {
+    @apply absolute text-36-btn left-119 mt-6 xl:mt-17 xl:left-165
+    2xl:mt-6 2xl:left-235
+}
+.slick-prev-3 {
+    @apply pr-6
+}
+
+.slick-next-3 {
+    @apply pl-3
+}
+.btnslider {
+    @apply w-34 h-39 text-red;
+    &:hover {
+        @apply text-darkblue;
+    };
+}

@@ -1,0 +1,24 @@
+
+.slider-list {
+    h6 {
+        @apply mt-18;
+    }
+
+   
+}  
+.btnslider {
+    @apply w-34 h-39 text-white bg-red;
+    &:hover {
+        @apply bg-darkblue;
+    };
+}
+
+.arrow-append { 
+    @apply absolute text-34 -right-17 bottom-29
+    xl:-right-16 xl:bottom-28
+    2xl:-right-18;
+}
+
+.slick-prev-1{ 
+    transform: translateX(1px);
+}
