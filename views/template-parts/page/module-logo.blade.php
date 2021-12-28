@@ -4,14 +4,7 @@
             <div class="row">
                 <div class="col mx-auto max-w-660 text-center xl:ml-48
                 2xl:max-w-914 2xl:mx-auto 2k:pl-0">
-                    <h3>
-                        Trusted By Industry Leaders Across the Supply Chain
-                    </h3>
-                    <p>
-                        We are trusted by the world’s leading manufacturers, distributors, 
-                        and retailers to provide the best of what technology, specifically 
-                        built for the beverage and food industry, can make possible.
-                    </p>
+                    {!! $data->module['content'] !!}
                 </div>
         
                 <div class="col logo-slider w-full flex mt-11 xl:mt-19

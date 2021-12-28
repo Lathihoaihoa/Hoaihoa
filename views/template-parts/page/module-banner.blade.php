@@ -3,10 +3,7 @@
         <div class="xl:flex">
             <div class="relative text-center pt-37 xl:text-left xl:max-w-440 xl:pl-37
                 2xl:max-w-542 2xl:pl-31 2k:max-w-536 2k:pl-28 text-white">
-                <h1>Unlock the Power of Connection</h1>
-                <p>
-                    Connect & Grow Your Business with the Power of the Encompass Platform
-                </p>
+                {!! $data->module['content'] !!}
                 <br>
                 <br>
                 <a href="#" class="bg-red py-8 px-38 rounded-27">ABOUT US</a>

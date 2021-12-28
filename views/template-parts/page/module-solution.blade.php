@@ -5,7 +5,7 @@
                 <div
                     class="col col-item-1 max-w-492 xl:w-1/3 xl:max-w-280 xl:ml-7 xl:mr-22
                 2xl:max-w-346 2xl:ml-0 2xl:mr-41">
-                    <span class="icomoon icon-solution1 text-64"></span>
+                     <span class="icomoon icon-solution1 text-64"></span> 
                     <h5>Solutions for Manufacturers</h5>
                     <p>
                         Over 400 breweries, distilleries, and cideries use Encompass' Orchestra
@@ -100,14 +100,4 @@
     </div>
 </section>
 
-{{-- 
-    
-@foreach ( $data->module['content'] as $item)
-<img src="{{ $item->icon->url }}" alt="">
-<p>{{ $item->content }}</p>
-@if ({{ $item->link->url }})
-<a href="{{ $item->link->url }}" target="{{ $item->link->target }}">{{ $item->link->title }}</a>
-@endforeach   
-
---}}
 
