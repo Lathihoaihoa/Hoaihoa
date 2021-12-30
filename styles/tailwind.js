@@ -62,6 +62,7 @@ module.exports = {
           'to': { opacity: '1' }
         }
       },
+
       animation: {
         opacity: 'opacity 1s ease-in-out'
       },
