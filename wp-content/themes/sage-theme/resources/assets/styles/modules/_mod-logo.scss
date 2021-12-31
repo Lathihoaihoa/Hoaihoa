@@ -1,0 +1,25 @@
+.mod-logo {
+    h3 {
+        @apply mb-7 px-10 2xl:pl-77 2xl:pr-75 
+    }
+        
+    p {
+        @apply ml-1
+    }
+
+}
+
+.btnslider {
+    @apply text-35 text-red;
+    &:hover {
+        @apply text-darkblue;
+    };
+}
+
+.slick-prev-2{ 
+    @apply absolute -left-7 bottom-9 xl:-left-22 2xl:-left-41 2xl:bottom-7;
+}
+
+.slick-next-2{ 
+    @apply absolute -right-7 bottom-9 xl:-right-22 2xl:-right-41 2xl:bottom-7
+}

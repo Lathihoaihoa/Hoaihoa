@@ -1,0 +1,20 @@
+.mod-solution{   
+    a:not(.btn):not(.no-underline) {
+        @apply text-a font-bold text-red tracking-a
+        no-underline;
+        &:hover {
+            @apply text-darkblue;
+        }
+    }
+    h4 {
+        @apply mt-9 mb-7 xl:mt-15 xl:mb-11 xl:ml-1 xl:mr-10 
+        2xl:ml-10 2k:mb-7
+    }
+    p {
+        @apply mb-7 xl:mb-32 2xl:ml-12 2xl:mb-28 2k:mb-37
+    }
+
+    a {
+        @apply ml-3 2xl:ml-13
+    }
+}
